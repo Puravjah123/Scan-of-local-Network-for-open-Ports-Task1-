@@ -39,5 +39,8 @@ This project demonstrate network reconnaissance skills by performing port scanni
 
    sudo nmap -sS -p 21,22,23,25,53,80,110,135,139,143,443,445,993,995,3389 192.168.1.0/24
 
+5.**To save results in html format**
+
+  sudo namp -sS -sV -O 192.168.1.0/24 -oH scan_results.html
 
 
